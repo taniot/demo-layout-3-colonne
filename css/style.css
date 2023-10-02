@@ -23,13 +23,15 @@ DEBUG
 
 .debug main {
   background-color: red;
+  height: 500px;
 }
 .debug .main-aside {
   background-color: green;
+  min-height: 250px;
 }
 .debug .main-nav {
   background-color: blue;
-  min-height: 200px;
+  min-height: 350px;
 }
 
 /*
@@ -37,6 +39,10 @@ DEBUG
 COMMON
 ******
 */
+
+body {
+  padding: 20px;
+}
 
 .layout {
   margin: 0 auto;
@@ -56,8 +62,9 @@ HEADER
 ******
 */
 
-header {
+.header {
   margin-bottom: 15px;
+  padding: 20px;
 }
 
 /*
@@ -74,16 +81,19 @@ MAIN
 
 main {
   flex-grow: 1;
+  padding: 20px;
 }
 
 .main-aside {
   width: 150px;
   flex-shrink: 0;
+  padding: 20px;
 }
 
 .main-nav {
   width: 250px;
   flex-shrink: 0;
+  padding: 20px;
 }
 
 /*
@@ -92,6 +102,7 @@ FOOTER
 ******
 */
 
-footer {
+.footer {
   margin-top: 15px;
+  padding: 20px;
 }
