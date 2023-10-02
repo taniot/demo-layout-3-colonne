@@ -29,6 +29,7 @@ DEBUG
 }
 .debug .main-nav {
   background-color: blue;
+  min-height: 200px;
 }
 
 /*
@@ -37,11 +38,27 @@ COMMON
 ******
 */
 
+.layout {
+  margin: 0 auto;
+}
+
+.layout.big {
+  max-width: 1280px;
+}
+
+.layout.small {
+  max-width: 900px;
+}
+
 /*
 ******
 HEADER
 ******
 */
+
+header {
+  margin-bottom: 15px;
+}
 
 /*
 ******
@@ -49,8 +66,32 @@ MAIN
 ******
 */
 
+.container {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.main-aside {
+  width: 150px;
+  flex-shrink: 0;
+}
+
+.main-nav {
+  width: 250px;
+  flex-shrink: 0;
+}
+
 /*
 ******
 FOOTER
 ******
 */
+
+footer {
+  margin-top: 15px;
+}
