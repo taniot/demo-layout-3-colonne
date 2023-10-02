@@ -16,6 +16,21 @@ DEBUG
 ******
 */
 
+.debug header,
+.debug footer {
+  background-color: aquamarine;
+}
+
+.debug main {
+  background-color: red;
+}
+.debug .main-aside {
+  background-color: green;
+}
+.debug .main-nav {
+  background-color: blue;
+}
+
 /*
 ******
 COMMON
